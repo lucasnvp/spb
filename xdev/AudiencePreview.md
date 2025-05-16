@@ -2,11 +2,7 @@
 
 Confluence page for [Audience preview](https://adroll.atlassian.net/wiki/spaces/EN/pages/3826253971/Audience+Pillar+Audience+Preview)
 
-## Audience preview API
-
-[Audience preview API](https://adroll.atlassian.net/wiki/spaces/EN/pages/3824910366/Audience+preview+API)
-
-https://github.com/SemanticSugar/sigma/blob/main/sigma-go/internal/api/audience_preview_handler.go
+[Diagram](https://app.diagrams.net/#G1JZ1pFKbB6XCma5ZQB2rKcMixNa7Gv4vY#%7B%22pageId%22%3A%22VYPdLxk8rHpUHXZWrkEl%22%7D)
 
 ## ClickHouse
 
@@ -36,6 +32,8 @@ Password: see bellow
 
 [ClickHouse Cloud](https://console.clickhouse.cloud/)
 
+Here you can add S3 Permissions [audience_preview_access](https://us-east-1.console.aws.amazon.com/iam/home?region=us-west-2#/users/details/cdpplus-clickhouse-staging/editPolicy/audience_preview_access?step=addPermissions)
+
 ### Info CH
 
 [Clickhouse tables](https://github.com/SemanticSugar/sigma/blob/main/sigma-go/deployments/compose/assets/clickhouse/init.sql)
@@ -55,13 +53,22 @@ In the Audience-Orchestration -> [Orchestration](https://github.com/SemanticSuga
 
 In slarma, you can select the prod table [Code in slargma](https://github.com/SemanticSugar/slargma/blob/c2b0fae664197dad768325a9674f2d3c4b41968b/audience/model/segmentdb/audience_preview.py#L13)
 
-## Sigma
+## Sigma - Audience Preview API
 
 Here is the code for the API. The API is written in GO
+
+[Audience preview API](https://adroll.atlassian.net/wiki/spaces/EN/pages/3824910366/Audience+preview+API)
+
+Here is an example for the old [API](https://app.adroll.com/segments/new/?advertisable=5L5IV3X4ZNCUZFMLN5KKOD) 
+
+[Proposal](https://adroll.atlassian.net/wiki/spaces/EN/pages/3987996674/API+Changes+for+Audience+Preview+RW+UAT+Segments)
+
+[Audience preview handler](https://github.com/SemanticSugar/sigma/blob/main/sigma-go/internal/api/audience_preview_handler.go)
 
 ## TODO
 
 - [ ] Update The Audience Preview APi to accept attributes & domains
+- [ ] Update Audience_Orchestration
 - [X] Create skeleton in Kappa
 - [X] Create skeleton in Audience-Orchestration
 - [X] Setup Sigma

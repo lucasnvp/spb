@@ -1,4 +1,7 @@
+# Secrets 
+
 How to create a secret 
+
 `printf 'yoursecret' | base64 | tr -d '\n' > secret.b64`
 
 How to Store un S3
@@ -10,7 +13,6 @@ aws s3 cp \
 	--sse aws:kms \ 
 	--content-type text/plain
 ```
-
 
 `printf 'pip-v2' | base64 | tr -d '\n' > secret.b64`
 
