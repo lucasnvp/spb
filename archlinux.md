@@ -20,11 +20,15 @@
 
 I'm using a tile windows manager
 
+How to edit the config `nvim ~/.config/awesome/rc.lua`
+
+In my dot files repo you have the all config. 
+
 ## Tools
 
 ### Kitty
 
-Powerfull termina
+Powerful terminal
 
 ### File Manager
 

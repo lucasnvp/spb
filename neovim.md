@@ -21,6 +21,12 @@ For copy `y`
 
 `P`
 
+## How to comment the code
+
+`gcc` for comment the code 
+
+`gc` in visual mode
+
 ## Plugins
 
 ## Markdown
