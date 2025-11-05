@@ -124,4 +124,13 @@ FROM (
 
 283
 
+## 2025-10-30
+
+```sql
+SELECT *
+    FROM FROM hive.bi.crossdevice_snapshots_parquet
+    WHERE namespace = 'email_liveramp'
+        AND date = '2025-10-27'
+        AND id = '50124e5fd88998699d0556187fc45d5c';
+```
 
