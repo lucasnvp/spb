@@ -12,7 +12,7 @@ You can use swagger to see the api definition.
 
 V1 -> [https://app.adroll.com/audience/v1/definition.json]
 
-V2 -> [ttps://app.adroll.com/audience/v2/definition.admin.json]
+V2 -> [https://app.adroll.com/audience/v2/definition.admin.json]
 
 ## Queries
 
