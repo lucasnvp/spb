@@ -2,6 +2,8 @@
 
 El job corre en el Airflow de audience `DAG: segmentation.eyeota_uat`
 
+La segmentacion que corre el job de Airflow esta en ["https://github.com/SemanticSugar/data/blob/main/segmentation-emr-7/src/main/java/eyeota/EyeotaUATSegmentation.java"]
+
 ## Inputs files para la segmentacion.
 
 Inputs files para el job: `s3://adroll-data/audience-data/uat-eyeota-segmentation/`
