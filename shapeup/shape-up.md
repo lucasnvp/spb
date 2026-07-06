@@ -1,0 +1,3 @@
+# Shape Up
+
+[Book](https://basecamp.com/shapeup/0.1-foreword)
