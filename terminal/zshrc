@@ -1,0 +1,8 @@
+# LS - Eza
+alias ls="eza --icons -lh --git"
+
+# CD - Zoxide
+eval "$(zoxide init zsh)"
+alias cd="z"
+alias cdi="zi"
+
