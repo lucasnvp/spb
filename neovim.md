@@ -36,3 +36,10 @@ I have a few setting for the MD files.
 `za` Open and close current cursor
 
 `zc` Open and close headers
+
+### Atajos clave: 
+
+- <leader>um (render on/off)
+- <leader>cp (preview)
+- <leader>cf (formatear)
+- <leader>cs (índice de headings via marksman).
