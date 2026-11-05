@@ -3,10 +3,9 @@
 ## Sessions
 
 Create => `tmux new -s {name}  
-Attach => `tmux attach -t {name}`
-Close => `tmux kill-session -t {name}`
+Attach =>`tmux attach -t {name}`Close =>`tmux kill-session -t {name}`
 
-`tmux ls`  Shows all terminals
+`tmux ls` Shows all terminals
 
 ## Split
 
